@@ -17,6 +17,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor=[Color darkColor].backColor;
+    
+    
+    UILabel* lab=[[UILabel alloc] initWithFrame:CGRectMake(0, 100, 300, 200)];
+    lab.backgroundColor=[UIColor greenColor];
+    lab.numberOfLines=0;
+    lab.text=@"hjfkdshkkjhjkdfj";
+    
+    lab.textColor=[UIColor redColor];
+    [lab sizeToFit];
+    [self.view addSubview:lab];
 }
 
 -(void)traitCollectionDidChange:(UITraitCollection *)previousTraitCollection
