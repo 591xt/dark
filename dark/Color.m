@@ -21,12 +21,14 @@
 -(void)setDarkColorArray
 {
     self.isDark=YES;
-    self.backColor=[UIColor blackColor];
+    self.backColor=[UIColor blueColor];
+    self.imageColor=[UIColor blackColor];
 }
 
 -(void)setBrightColorArray
 {
     self.isDark=NO;
-    self.backColor=[UIColor whiteColor];
+    self.backColor=[UIColor redColor];
+    self.imageColor=[UIColor whiteColor];
 }
 @end

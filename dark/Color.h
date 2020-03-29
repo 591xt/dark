@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface Color : NSObject
 
 @property (nonatomic, strong) UIColor* backColor;
+@property (nonatomic, strong) UIColor* imageColor;
+
 
 @property(nonatomic)BOOL isDark;
 

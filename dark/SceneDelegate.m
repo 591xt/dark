@@ -61,7 +61,7 @@
         if(UITraitCollection.currentTraitCollection.userInterfaceStyle == UIUserInterfaceStyleDark)
         {
             [[Color darkColor] setDarkColorArray];
-            NSLog(@"暗黑模式");
+            NSLog(@"深色模式");
         }
         else
         {
